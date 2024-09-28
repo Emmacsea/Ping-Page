@@ -25,7 +25,7 @@ export default function Ping({ email, onChangeEmail, onSubmitEmail }) {
   };
 
   return (
-    <div className="bg-white flex justify-center items-center py-12">
+    <div className="bg-white flex justify-center items-center py-12 h-screen w-fu">
       <div className="flex flex-col justify-center items-center">
         <div className="mb-5">
           <img className="w-14" src={logo} alt="" />
