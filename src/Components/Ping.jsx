@@ -61,7 +61,7 @@ export default function Ping({ email, onChangeEmail, onSubmitEmail }) {
               )}
             </div>
             <button
-              className="bg-primary-blue rounded-full py-3 px-6 text-neutral-vdarkblue text-sm font-light placeholder:text-neutral-gray placeholder:text-sm"
+              className="bg-primary-blue rounded-full py-3 px-6 text-sm text-white font-light placeholder:text-neutral-gray placeholder:text-sm" 
               type="submit"
             >
               Notify Me
