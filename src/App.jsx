@@ -11,10 +11,10 @@ function App() {
   }
 
 
-  // const emailAccept = (e) => {
-  //   e.preventDefault();
-  //   window.alert(`Your Email has been submitted, you will receive a notification soon!`)
-  // }
+  const emailAccept = (e) => {
+    
+    window.alert(`Your Email has been submitted, you will receive a notification soon!`)
+  }
 
 
   return (
@@ -22,7 +22,7 @@ function App() {
     <Ping
     email={email}
     onChangeEmail={handleEmailChange}
-    
+    onSubmitEmail={emailAccept}
     />
       
     </>
