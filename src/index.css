@@ -5,3 +5,11 @@
 .btn:hover {
     @apply shadow-secondary-paleblue
 }
+
+.icon-links {
+    @apply rounded-full border-2 border-secondary-paleblue p-1
+}
+
+.icon-details {
+    @apply text-primary-blue md:text-xl sm:text-sm flex justify-center items-center 
+}
